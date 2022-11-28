@@ -9,6 +9,10 @@ public class Percussio extends Instruments {
 		super(nom, preu);
 	}
 	
+	//static bloc codi
+	static {
+		System.out.println("L'identificador dels instruments de percussió és: " + identificadorPercussio);
+	}
 	//mètode tocar
 	
 	public void tocar() {
@@ -21,6 +25,15 @@ public class Percussio extends Instruments {
 	public static void ensenyaIdentificador() {
 		System.out.println(identificadorPercussio);
 	}
+	
+	//toString
+
+		public String toString () {
+			String descripcio;
+			descripcio = "L'instrument de percussió és un " + nom + " i el seu preu és de " + preu;
+			return descripcio;
+		}
+
 	
 
 }

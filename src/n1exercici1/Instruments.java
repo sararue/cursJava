@@ -12,14 +12,16 @@ public abstract class Instruments {
 	
 	//instancia de la classe
 	{
-		nom="";
+		nom="ni idea";
 		preu=0;
-		System.out.println("instancio que el nom i el preu de l'instrument és: " + nom +  preu);
+		System.out.println("instancio que el nom i el preu de l'instrument és: " + nom + " i "+ preu);
 	}
 	
 	
 	//mètode tocar
 	abstract void tocar();
+	
+
 	
 	
 	

@@ -10,15 +10,26 @@ public class Vent extends Instruments{
 		super(nom, preu);
 	}
 	
+	//static code block 
+	
+	static {
+		System.out.println("L'identificador dels instruments de vent és: " + identificadorVent);
+	}
+	
+	
 	//mètode tocar
 	
 	public void tocar() {
 		System.out.println("Està sonant un instrument de vent");
 		
-	}
+	}	
 	
-	public static void ensenyaIdentificador() {
-		System.out.println(identificadorVent);
+	//toString
+
+	public String toString () {
+		String descripcio;
+		descripcio = "L'instrument de vent és un " + nom + " i el seu preu és de " + preu;
+		return descripcio;
 	}
 
 }

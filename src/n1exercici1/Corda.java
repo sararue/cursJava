@@ -10,6 +10,11 @@ public class Corda extends Instruments {
 		super(nom, preu);
 	}
 	
+	//static bloc codi
+	static {
+		System.out.println("L'identificador dels instruments de corda és: " + identificadorCorda);
+	}
+	
 	//mètode tocar
 	
 	public void tocar() {
@@ -22,5 +27,13 @@ public class Corda extends Instruments {
 	public static void ensenyaIdentificador() {
 		System.out.println(identificadorCorda);
 	}
+
+	//toString
+
+		public String toString () {
+			String descripcio;
+			descripcio = "L'instrument de corda és un " + nom + " i el seu preu és de " + preu;
+			return descripcio;
+		}
 
 }
