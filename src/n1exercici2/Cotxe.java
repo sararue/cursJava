@@ -6,8 +6,10 @@ public class Cotxe {
 	private static String model;
 	private final int potencia = 500;
 	
+	//Constructors
+	
 	static {
-		model = "leon";
+		model = "ibiza";
 	}
 
 	//Mètodes
@@ -18,6 +20,11 @@ public class Cotxe {
 	
 	public void accelerar() {
 		System.out.println("El vehicle està accelerant");
+	}
+	
+	public String toString() {
+		String descripcio = "La marca del cotxe és " + marca + " el model és " + model + " i la potencia és de " + potencia + " cavalls.";
+		return descripcio;
 	}
 
 }
