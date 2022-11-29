@@ -2,7 +2,7 @@ package n1exercici1;
 
 public class Corda extends Instruments {
 	
-	private static String identificadorCorda = "0001";
+	private static String identificadorCorda;
 	
 	//constructor
 	
@@ -12,7 +12,7 @@ public class Corda extends Instruments {
 	
 	//static bloc codi
 	static {
-		System.out.println("L'identificador dels instruments de corda és: " + identificadorCorda);
+		identificadorCorda = "0001";
 	}
 	
 	//mètode tocar

@@ -1,7 +1,7 @@
 package n1exercici1;
 
 public class Percussio extends Instruments {
-	private static String identificadorPercussio = "0003";
+	private static String identificadorPercussio;
 	
 	//constructor
 	
@@ -11,7 +11,7 @@ public class Percussio extends Instruments {
 	
 	//static bloc codi
 	static {
-		System.out.println("L'identificador dels instruments de percussió és: " + identificadorPercussio);
+		identificadorPercussio = "0003";
 	}
 	//mètode tocar
 	

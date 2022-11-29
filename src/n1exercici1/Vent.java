@@ -2,7 +2,7 @@ package n1exercici1;
 
 public class Vent extends Instruments{
 	
-	private static String identificadorVent = "0002";
+	private static String identificadorVent;
 	
 	//constructor
 	
@@ -13,7 +13,7 @@ public class Vent extends Instruments{
 	//static code block 
 	
 	static {
-		System.out.println("L'identificador dels instruments de vent és: " + identificadorVent);
+		identificadorVent= "0002";
 	}
 	
 	
@@ -23,6 +23,12 @@ public class Vent extends Instruments{
 		System.out.println("Està sonant un instrument de vent");
 		
 	}	
+	
+	//Mètode static
+	
+	public static void ensenyaIdentificador() {
+		System.out.println(identificadorVent);
+	}
 	
 	//toString
 
