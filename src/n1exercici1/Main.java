@@ -8,7 +8,6 @@ public class Main {
     	Corda.ensenyaIdentificador();
     	
     	//Creem variables de diferents classes per veure la instància
-
     	
     	Vent vent1 = new Vent("Flauta",300);
     	Percussio percussio1 = new Percussio ("Tambor",800);
