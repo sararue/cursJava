@@ -4,8 +4,8 @@ public class App {
 	
 	public static void main (String [] args) {
 		
-		Cotxe cotxe1 = new Cotxe();
-		Cotxe cotxe2 = new Cotxe();
+		Cotxe cotxe1 = new Cotxe(500);
+		Cotxe cotxe2 = new Cotxe(300);
 		
 		Cotxe.frenar();
 		cotxe1.accelerar();
