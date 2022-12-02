@@ -7,9 +7,9 @@ public class Cotxe {
 	private final int potencia;
 	
 	//Constructors
-	public Cotxe () {
-		potencia = 300;
-		model = "";
+	public Cotxe (int potencia) {
+		this.potencia=potencia;
+		model = "leon";
 	}
 	
 	static {
