@@ -19,6 +19,7 @@ public class Vent extends Instruments{
 	
 	//mètode tocar
 	
+    @Override
 	public void tocar() {
 		System.out.println("Està sonant un instrument de vent");
 		

@@ -4,9 +4,13 @@ public class Cotxe {
 	
 	private static final String marca = "seat";
 	private static String model;
-	private final int potencia = 500;
+	private final int potencia;
 	
 	//Constructors
+	public Cotxe () {
+		potencia = 300;
+		model = "";
+	}
 	
 	static {
 		model = "ibiza";

@@ -15,6 +15,7 @@ public class Percussio extends Instruments {
 	}
 	//mètode tocar
 	
+    @Override
 	public void tocar() {
 		System.out.println("Està sonant un instrument de corda");
 		

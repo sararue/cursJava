@@ -19,7 +19,6 @@ public class Main {
     	System.out.println(percussio1);
     	System.out.println(corda1);
     	
-
 	}
 
 }
